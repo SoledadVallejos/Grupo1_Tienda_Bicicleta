@@ -2,3 +2,92 @@
   margin: 0;
   padding: 0;
 }
+
+
+/* CONTACTO */
+.colorFondo {
+  background-color: #01A1DD;
+}
+
+.formulario {
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 60px;
+  padding: 5px;
+}
+
+.formulario h1 {
+
+  text-align: center;
+  margin: 20px 0;
+  text-decoration: underline;
+
+}
+
+.box-form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+label {
+  margin: 5px 0;
+}
+
+input,
+select {
+  padding: 5px;
+  margin: 5px 0;
+}
+
+span.error {
+  color: red;
+  font-size: 14px;
+}
+
+.box-check {
+  display: flex;
+  align-items: center;
+}
+
+.box-check label {
+  margin-left: 5px;
+}
+
+.container-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #212C65;
+  width: 100px;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0f1225;
+  cursor: pointer;
+}
+
+.register .box-button {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 35px;
+  margin-top: 35px;
+  text-align: center;
+  text-decoration: underline;
+ 
+}
+
+.map{
+  margin: 5px 0;
+  padding: 10px;
+}
