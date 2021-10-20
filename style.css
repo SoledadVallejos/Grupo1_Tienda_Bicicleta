@@ -10,25 +10,25 @@
   body {
     background-color:#212C65;
   }
-  .todo {
-    list-style: none;
+ 
+    .home {
     display: flex;
-    justify-content: flex-end;
-    padding: 50px;
+    border: 1px salmon;
+    justify-content: space-around;
+    flex-direction: row-reverse;
     text-align: end;
-    margin: 0 100px 0 0;
     }
 
-    .home {
-      list-style: none;
-      display: flex;
-      justify-content: flex-end;
-      padding: 10px 50px 20px;
-      text-align: end;
-      margin:10%;
-      }
-
  .producto {
+list-style: none;
+display: flex;
+justify-content: flex-start;
+padding: 50px;
+text-align: end;
+margin: top;
+}
+
+.contacto {
 list-style: none;
 display: flex;
 justify-content: flex-end;
@@ -36,15 +36,6 @@ padding: 50px;
 text-align: end;
 margin: top;
 }
-
-        .contacto {
-          list-style: none;
-          display: flex;
-          justify-content: flex-end;
-          padding: 50px;
-          text-align: end;
-          margin: top;
-          }
   
   nav {
     padding: 50px;
