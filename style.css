@@ -14,7 +14,7 @@ footer {
   width: 100%;
   max-width: 1600px;
   margin: auto;
-  background: blue;
+  background: #212c65;
 }
 
 .contenedor-body {
@@ -69,13 +69,15 @@ footer {
 }
 
 .icons2 {
-  margin-top: 20px;
-  
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
-.icons2 img{
-  width: 36px;
-  height: 36px;
+.icons2 img {
+  margin-top: 15px;
+  width: 56px;
+  height: 56px;
 }
 
 .icons2 label {
@@ -84,7 +86,7 @@ footer {
   margin-top: 10px;
 }
 
-.contenedor-body2{
+.contenedor-body2 {
   width: 100px;
   background: #000000;
   display: flex;
