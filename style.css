@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+footer {
+  width: 100%;
+  background: #212c65;
+  color: #000000;
+}
+.contenedor-de-todo-footer {
+  width: 100%;
+  max-width: 1600px;
+  margin: auto;
+  background: blue;
+}
+
+.contenedor-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.colum1 {
+  max-width: 400px;
+}
+
+.colum1 h1 {
+  font-size: 22px;
+}
+
+.colum1 p {
+  font-size: 14px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.colum2 {
+  max-width: 400px;
+}
+
+.colum2 h1 {
+  font-size: 22px;
+}
+
+.icons {
+  margin-top: 20px;
+  display: flex;
+}
+
+.icons img {
+  width: 36px;
+  height: 36px;
+}
+
+.icons label {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #000000;
+}
+
+.colum3 {
+  max-width: 400px;
+}
+
+.colum3 h1 {
+  font-size: 22px;
+}
+
+.icons2 {
+  margin-top: 20px;
+  width: 36px;
+  height: 36px;
+}
+
+.icons2 label {
+  margin-left: 20px;
+  max-width: 120px;
+  margin-top: 10px;
+}
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body > * {
+    margin-bottom: 50px;
+  }
+  
+  body {
+    background-color:#212C65;
+  }
+ 
+    .home {
+    display: flex;
+    border: 1px salmon;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    text-align: end;
+    }
+
+ .producto {
+list-style: none;
+display: flex;
+justify-content: flex-start;
+padding: 50px;
+text-align: end;
+margin: top;
+}
+
+.contacto {
+list-style: none;
+display: flex;
+justify-content: flex-end;
+padding: 50px;
+text-align: end;
+margin: top;
+}
+  
+  nav {
+    padding: 50px;
+    background-color:#01A1DD;
+    position: sticky;
+    top: 20px;
+  }
+  
+  h1 {
+    font-size: x-large;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .header {
+    width: 100%;
+    justify-content: flex-start;
+    margin: 0cm;
+  }
+  
+
+  
+  .formu {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+  
+    border-radius: 1em;
+  }
+  -----
+  label {
+    font-family: "Comic Sans";
+  
+    display: inline-block;
+    width: 60px;
+    padding: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  
