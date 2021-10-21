@@ -2,12 +2,12 @@
   box-sizing: border-box;
 }
 
+/* <--- Seccion de productos ---> */
 .column {
   float: left;
-  width: 25%;
+  width: 20%;
   padding: 0 10px;
 }
-
 /* Remove extra left and right margins, due to padding */
 .row {margin: 0 -5px;}
 
@@ -23,19 +23,71 @@
   .column {
     width: 100%;
     display: block;
-    margin-bottom: 20px;
+    margin: 20px;
   }
 }
-
-/* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  text-align: center;
   background-color: #01a1dd;
-  border-radius: 15px;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+.card img {
+  width: 100%;
+  border-radius: 7px 7px 0 0;
 }
 .text {
-  padding: 16px;
+  font-size: 17px;
+  text-align: center;
+  height: 40px;
+}
+.text-1 {
+  font-size: 14px;
+  padding: 0 10px 0 10px;
+}
+.card:hover{
+  box-shadow: 0 7px 16px 0 rgb(0 0 0 / 20%), 0 1px 3px 0 rgb(0 0 0 / 10%);
+  top: 5px;
 }
 
-/*Ahora Este es el real */
+
+/* <--- Seccion de historia ---> */
+.title-historia {
+  text-align: center;
+  margin-top: 70px;
+}
+.d-flex{
+  margin: 40px 20px 20px 0;
+  
+}
+.nav-pills .nav-link.active {
+  background-color: #01a1dd;
+}
+.nav-link {
+  color: #000;
+}
+.nav-link:hover{
+  color: #000;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  padding: 0 10px 10px 10px;
+}
+
+.grid-item {
+  text-align: center;
+  padding: 0 10px 10px 10px;
+  width: 100%;
+}
+
+.item1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.item2 {
+  grid-column: 2;
+  grid-row: 1;
+}
