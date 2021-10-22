@@ -60,43 +60,32 @@ footer {
 
 /* CONTACTO */
 .colorFondo {
-  background-color: #212C65;
+  background-color: #212c65;
 }
 
-.contenedor-contact{
+.contenedor-contact {
   display: flex;
-  background-color:#01a1dd;
- width: 65%;
- margin: auto;
+  background-color: #01a1dd;
+  width: 65%;
+  margin: auto;
   padding: 20px 0;
- 
-
-
 }
 
 .formulario {
   width: 40%;
   margin: 0 auto;
   margin-top: 60px;
-
-
 }
 
 .formulario h1 {
-  
-  
-   margin: auto; 
- 
+  margin: auto;
 
-  
-    font-size: 35px;
-    /* margin-top: 35px; */
-    text-align: center;
-   font-style: italic;
-   font-weight: bold;
-   text-decoration: underline;
-   
-  
+  font-size: 35px;
+  /* margin-top: 35px; */
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .box-form {
@@ -143,7 +132,6 @@ button {
   border: none;
   border-radius: 5px;
   margin: 15px 25px 0;
- 
 }
 
 button:hover {
@@ -156,16 +144,14 @@ button:hover {
   flex-wrap: wrap;
 }
 
-
 .map {
   margin: 5px 0;
- 
+
   width: 50%;
   display: flex;
   align-items: center;
- 
 }
 
-.border-map{
+.border-map {
   border-radius: 15px;
 }
