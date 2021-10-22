@@ -2,7 +2,11 @@
   box-sizing: border-box;
 }
 
-/* <--- Seccion de productos ---> */
+/* <--- PRODUCTOS ---> */
+.title-historia{
+  text-align: center;
+  margin-top: 30px;
+}
 .column {
   float: left;
   width: 20%;
@@ -53,23 +57,18 @@
 }
 
 /* HISTORIA */
-.historia-container{
-  margin-top: 30px;
+ .historia-container {
+  display: flex;
 }
 .historia-img{
   width: 400px;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
-.izquierda{
-  float: left;
-  margin-right: 20px;
+.historia-text{
+  margin: 20px
 }
-.derecha{
-  float: right;
-  margin-left: 20px;
-}
-.historia-h2 {
-  clear: both;
+.historia-h2{
+  text-align: center;
 }
 /* FOOTER */
 footer {
