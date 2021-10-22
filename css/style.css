@@ -44,19 +44,17 @@
   height: 40px;
 }
 .text-1 {
-  font-size: 14px;
+  font-size: 16px;
   padding: 0 10px 0 10px;
+  font-family:"Comic Sans MS", "Comic Sans", cursive;
+
 }
 .card:hover {
   box-shadow: 0 7px 16px 0 rgb(0 0 0 / 20%), 0 1px 3px 0 rgb(0 0 0 / 10%);
   top: 5px;
 }
 
-footer {
-  width: 100%;
-  background: darkblue;
-  color: white;
-}
+
 
 /* CONTACTO */
 .colorFondo {
