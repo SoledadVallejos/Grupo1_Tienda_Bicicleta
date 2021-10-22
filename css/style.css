@@ -52,6 +52,26 @@
   top: 5px;
 }
 
+/* HISTORIA */
+.historia-container{
+  margin-top: 30px;
+}
+.historia-img{
+  width: 400px;
+  margin-bottom: 20px;
+}
+.izquierda{
+  float: left;
+  margin-right: 20px;
+}
+.derecha{
+  float: right;
+  margin-left: 20px;
+}
+.historia-h2 {
+  clear: both;
+}
+/* FOOTER */
 footer {
   width: 100%;
   background: darkblue;
