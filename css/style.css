@@ -1,6 +1,31 @@
 * {
   box-sizing: border-box;
 }
+/* NAVEGACIÓN */
+nav {
+  background-color: #212c65;
+  position: static;
+  top: 0px;
+  padding: 20px;
+}
+.index {
+  position: absolute;
+  top: 40px;
+  right: 200px;
+}
+
+.prod {
+  position: absolute;
+  top: 40px;
+  right: 100px;
+}
+
+.ref {
+  position: absolute;
+  top: 40px;
+  right: 16px;
+}
+
 
 /* <--- Seccion de productos ---> */
 .column {
@@ -154,4 +179,112 @@ button:hover {
 
 .border-map {
   border-radius: 15px;
+}
+
+
+/* FOOTER */
+footer {
+  width: 100%;
+  background: #212c65;
+  color: #000000;
+}
+.contenedor-de-todo-footer {
+  width: 100%;
+  max-width: 1600px;
+  margin: auto;
+  background: #212c65;
+}
+
+.contenedor-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.colum1 {
+  max-width: 400px;
+}
+
+.colum1 h1 {
+  font-size: 22px;
+}
+
+.colum1 p {
+  font-size: 14px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.colum2 {
+  max-width: 400px;
+  justify-content: center;
+}
+
+.colum2 h1 {
+  font-size: 22px;
+}
+
+.icons {
+  margin-top: 20px;
+  display: flex;
+}
+
+.icons img {
+  width: 36px;
+  height: 36px;
+}
+
+.icons label {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #000000;
+}
+
+.colum3 {
+  max-width: 400px;
+}
+
+.colum3 h1 {
+  font-size: 22px;
+}
+
+.icons2 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.icons2 img {
+  margin-top: 15px;
+  width: 56px;
+  height: 56px;
+}
+
+.icons2 label {
+  margin-left: 20px;
+  max-width: 120px;
+  margin-top: 10px;
+}
+
+.contenedor-body2 {
+  height: 5px;
+  width: 1950px;
+  background: #000000;
+  display: flex;
+  padding: 19px;
+  justify-content: space-around;
+  
+}
+
+.copyright{
+
+  color: #212c65;
+}
+
+.copyright a{
+
+  color: #212c65;
+}
+
+.politica a{
+  color: #212c65;
 }
