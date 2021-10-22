@@ -38,6 +38,7 @@ footer {
 
 .colum2 {
   max-width: 400px;
+  justify-content: center;
 }
 
 .colum2 h1 {
