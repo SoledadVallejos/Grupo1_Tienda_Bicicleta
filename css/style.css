@@ -27,7 +27,11 @@ nav {
 }
 
 
-/* <--- Seccion de productos ---> */
+/* <--- PRODUCTOS ---> */
+.title-historia{
+  text-align: center;
+  margin-top: 30px;
+}
 .column {
   float: left;
   width: 20%;
@@ -61,6 +65,7 @@ nav {
 }
 .card img {
   width: 100%;
+  height: 150px;
   border-radius: 7px 7px 0 0;
 }
 .text {
@@ -77,6 +82,21 @@ nav {
   top: 5px;
 }
 
+/* HISTORIA */
+ .historia-container {
+  display: flex;
+}
+.historia-img{
+  width: 400px;
+  margin-top: 20px;
+}
+.historia-text{
+  margin: 20px
+}
+.historia-h2{
+  text-align: center;
+}
+/* FOOTER */
 footer {
   width: 100%;
   background: darkblue;
