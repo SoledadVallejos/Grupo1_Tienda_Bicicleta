@@ -1,96 +1,41 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: 50;
+}
+
+.index {
+  position: absolute;
+    top: 40px;
+    right: 200px;
+}
+
+.prod {
+  position: absolute;
+  top: 40px;
+  right: 100px; 
   }
   
-  body > * {
-    margin-bottom: 50px;
-  }
-  
-  body {
-    background-color:#212C65;
-  }
+  .ref {
+    position: absolute;
+    top: 40px;
+    right: 16px; 
  
-    .home {
-    display: flex;
-    border: 1px salmon;
-    justify-content: space-around;
-    flex-direction: row-reverse;
-    text-align: end;
-    }
-
- .producto {
-list-style: none;
-display: flex;
-justify-content: flex-start;
-padding: 50px;
-text-align: end;
-margin: top;
 }
 
-.contacto {
-list-style: none;
-display: flex;
-justify-content: flex-end;
-padding: 50px;
-text-align: end;
-margin: top;
+body {
+
+  background-color: #01a1dd;
+  padding: 100;
 }
-  
-  nav {
-    padding: 50px;
-    background-color:#01A1DD;
-    position: sticky;
-    top: 20px;
-  }
-  
-  h1 {
-    font-size: x-large;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #000000;
-  }
-  
-  .header {
-    width: 100%;
-    justify-content: flex-start;
-    margin: 0cm;
-  }
-  
-  /*Aqui empieza Formulario*/
-  
-  .formu {
-    display: flex;
-    justify-content: flex-start;
-  }
-  
-  form {
-    margin: 0 auto;
-    width: 400px;
-    padding: 1em;
-  
-    border-radius: 1em;
-  }
-  -----
-  label {
-    font-family: "Comic Sans";
-  
-    display: inline-block;
-    width: 60px;
-    padding: 10px;
-  }
-  
-  input,
-  textarea {
-    width: 300px;
-    box-sizing: border-box;
-    border: 1px solid;
-  }
-  
-  textarea {
-    vertical-align: top;
-    height: 5em;
-  }
-  
+
+nav {
+ background-color:  #212C65;
+ position: static;
+ top: 0px;
+ padding: 20px;
+}
+a {
+ text-decoration: none;
+ color:white;
+}
