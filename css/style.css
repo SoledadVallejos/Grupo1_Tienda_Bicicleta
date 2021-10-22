@@ -165,3 +165,7 @@ button:hover {
   align-items: center;
  
 }
+
+.border-map{
+  border-radius: 15px;
+}
