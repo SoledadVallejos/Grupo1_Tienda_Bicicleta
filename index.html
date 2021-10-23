@@ -49,24 +49,20 @@
 <body>
   <!--  Sección de navegador   -->
   <header>
-
     <nav>
-      <ul>
-        <ul>
-          <div class="header"><a href="index.html">
-              <h1>Tienda de Bicicletas</h1>
-            </a>
-            <nav>
-              <ul>
-                <div class="index"><a href="#Historia">Historia</a></div>
-                <div class="prod"><a href="#Productos">Productos</a></div>
-                <div class="ref"><a href="#Contacto">Contactos</a></div>
-              </ul>
-            </nav>
+      <div class="container">
+        <div class="nav-text-der">TIENDA BICICLETAS</div>
 
-            <p class="parrafo">
-            <h1>Bicicletas de competición y urbanas</h1>
-            </p>
+        <div class="nav-text-izq">
+          <ul>
+            <li><a href="#Historia">Historia</a></li>
+            <li><a href="#Productos">Productos</a></li>
+            <li><a href="#Contacto">Contactos</a></li>
+          </ul>
+        </div>
+      </div>
+      <img src="/images/banner.jpg" alt="Snow" class="nav-img">
+    </nav>
   </header>
   <!--  Sección de productos -->
   <h2 class="title-historia" id="Productos">Productos</h2>
@@ -305,24 +301,22 @@
         <h1>Contacto</h1>
         <form action="">
           <div class="box-form">
-            <label for="nombre">Nombre</label>
-            <input class="container-input" type="text" placeholder="tu nombre" id="nombre" name="nombre">
-            <span class="error">Obligatorio</span>
+            <label for="nombre">Nombre *</label>
+            <input class="container-input" type="text" placeholder="tu nombre" id="nombre" name="nombre" required>
           </div>
           <div class="box-form">
-            <label for="email">Email</label>
-            <input class="container-input" type="email" placeholder="tu email" id="email" name="email">
-            <span class="error">Obligatorio</span>
+            <label for="email">Email *</label>
+            <input class="container-input" type="email" placeholder="tu email" id="email" name="email" required>
           </div>
           <div class="box-form">
-            <label for="password">Contraseña</label>
-            <input class="container-input" type="password" placeholder="tu contraseña" id="password" name="password">
-            <span class="error">Obligatorio</span>
+            <label for="password">Contraseña *</label>
+            <input class="container-input" type="password" placeholder="tu contraseña" id="password" name="password"
+              required>
           </div>
           <div>
-            <h4>Tema</h4>
+            <label for="password">Tema *</label>
             <div class="box-form">
-              <select class="container-input" name="pais" id="pais">
+              <select class="container-input" name="pais" id="pais" required>
                 <option value="" selected hidden>Elegir tema</option>
                 <option value="sale">Venta</option>
                 <option value="job">Trabajo</option>
