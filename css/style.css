@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 /* NAVEGACIÓN */
 nav {
@@ -26,9 +27,8 @@ nav {
   right: 16px;
 }
 
-
 /* <--- PRODUCTOS ---> */
-.title-historia{
+.title-historia {
   text-align: center;
   margin-top: 30px;
 }
@@ -86,17 +86,17 @@ nav {
 
 
 /* HISTORIA */
- .historia-container {
+.historia-container {
   display: flex;
 }
-.historia-img{
+.historia-img {
   width: 400px;
   margin-top: 20px;
 }
-.historia-text{
-  margin: 20px
+.historia-text {
+  margin: 20px;
 }
-.historia-h2{
+.historia-h2 {
   text-align: center;
 }
 
@@ -199,7 +199,6 @@ button:hover {
   border-radius: 15px;
 }
 
-
 /* FOOTER */
 footer {
   width: 100%;
@@ -290,19 +289,16 @@ footer {
   display: flex;
   padding: 19px;
   justify-content: space-around;
-  
 }
 
-.copyright{
-
+.copyright {
   color: #212c65;
 }
 
-.copyright a{
-
+.copyright a {
   color: #212c65;
 }
 
-.politica a{
+.politica a {
   color: #212c65;
 }
