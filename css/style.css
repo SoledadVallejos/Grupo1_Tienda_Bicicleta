@@ -1,4 +1,6 @@
 * {
+  padding: 0px;
+  margin: 0px;
   box-sizing: border-box;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
@@ -284,10 +286,10 @@ footer {
 
 .contenedor-body2 {
   height: 5px;
-  width: 1950px;
+  width: 2855px;
   background: #000000;
   display: flex;
-  padding: 19px;
+  padding: 25px;
   justify-content: space-around;
 }
 
