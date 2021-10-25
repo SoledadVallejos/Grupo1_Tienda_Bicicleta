@@ -4,6 +4,7 @@
   <meta name="title" content="Guayerd Bikes">
   <meta name="description"
     content="Bicicletas de competición y urbanas. Somos fabricantes de las mejores bicicletas de la región. Atención personalizada y venta de accesorios.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
@@ -43,136 +44,126 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+  <script src="/javascript/index.js"></script>
   <title>Guayerd Bikes - Bicicletas de Competición y Urbanas</title>
 </head>
 
 <body>
   <!--  Sección de navegador   -->
-  <header>
-
-    <nav>
-      <ul>
-        <ul>
-          <div class="header"><a href="index.html">
-              <h1>Tienda de Bicicletas</h1>
-            </a>
-            <nav>
-              <ul>
-                <div class="index"><a href="#Historia">Historia</a></div>
-                <div class="prod"><a href="#Productos">Productos</a></div>
-                <div class="ref"><a href="#Contacto">Contactos</a></div>
-              </ul>
-            </nav>
-
-            <p class="parrafo">
-            <h1>Bicicletas de competición y urbanas</h1>
-            </p>
-  </header>
+  <section class="nav">
+    <header class="nav-header">
+      <a href="#" class="logo">Tienda Bicicleta</a>
+      <div class="toggle" onclick="toggleMenu()"></div>
+      <ul class="nav-ul">
+        <li><a class="prada" href="#Historia">Historia</a></li>
+        <li><a class="prada" href="#Productos">Productos</a></li>
+        <li><a class="prada" href="#Contacto">Contactos</a></li>
+      </ul>
+    </header>
+  </section>
   <!--  Sección de productos -->
+
   <h2 class="title-historia" id="Productos">Productos</h2>
-  <div class="row">
-    <div class="column">
-      <div class="card">
-        <img src="/images/bici.jpg" alt="Thanos Competicion Rodado 28">
-        <h5 class="text">Urbana Crossway 40</h5>
-        <p class="text-1">Bicicleta de competición hecha a medida con lo mejor, cuadro francés
-          Huret talle 'M', cambios y mecánica Shimano (shifters,
-          descarriladores), frenos Weinmann, ruedas Canestrari Super Sport
-          28', cubiertas Michelin Super Elan, Stem Caymot, pedales Giorgia,
-          asiento italiano Iscaselle. La bicicleta es ultra liviana hecha
-          especialmente para competir, tengo las punteras de los pedales y el
-          porta-botella original, podría llegar a cambiar por una MTB.
-        </p>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="card">
-        <img src="/images/bici2.jpg" alt="Thanos Competicion Rodado 28">
-        <h4 class="text">Varela Competicion Aluminio Rodado 28</h4>
-        <p class="text-1">Bicicleta de competición hecha a medida con lo mejor, cuadro francés
-          Huret talle 'M', cambios y mecánica Shimano (shifters,
-          descarriladores), frenos Weinmann, ruedas Canestrari Super Sport
-          28', cubiertas Michelin Super Elan, Stem Caymot, pedales Giorgia,
-          asiento italiano Iscaselle. La bicicleta es ultra liviana hecha
-          especialmente para competir, tengo las punteras de los pedales y el
-          porta-botella original, podría llegar a cambiar por una MTB.
-        </p>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="card">
-        <img src="/images/bici3.jpg" alt="Thanos Competicion Rodado 28">
-        <h4 class="text">Thanos Competicion Rodado 28</h4>
-        <p class="text-1">Bicicleta de competición hecha a medida con lo mejor, cuadro francés
-          Huret talle 'M', cambios y mecánica Shimano (shifters,
-          descarriladores), frenos Weinmann, ruedas Canestrari Super Sport
-          28', cubiertas Michelin Super Elan, Stem Caymot, pedales Giorgia,
-          asiento italiano Iscaselle. La bicicleta es ultra liviana hecha
-          especialmente para competir, tengo las punteras de los pedales y el
-          porta-botella original, podría llegar a cambiar por una MTB.</p>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="card">
-        <img src="/images/bici4.jpg" alt="Thanos Competicion Rodado 28">
-        <h4 class="text">Urbana Crossway 40</h4>
-        <p class="text-1">Bicicleta de competición hecha a medida con lo mejor, cuadro francés
-          Huret talle 'M', cambios y mecánica Shimano (shifters,
-          descarriladores), frenos Weinmann, ruedas Canestrari Super Sport
-          28', cubiertas Michelin Super Elan, Stem Caymot, pedales Giorgia,
-          asiento italiano Iscaselle. La bicicleta es ultra liviana hecha
-          especialmente para competir, tengo las punteras de los pedales y el
-          porta-botella original, podría llegar a cambiar por una MTB.</p>
-      </div>
-    </div>
-    <div class="column">
-      <div class="card">
-        <img src="/images/bici2.jpg" alt="Thanos Competicion Rodado 28">
-        <h4 class="text">Thanos Competicion Rodado 28</h4>
-        <p class="text-1">Bicicleta de competición hecha a medida con lo mejor, cuadro francés
-          Huret talle 'M', cambios y mecánica Shimano (shifters,
-          descarriladores), frenos Weinmann, ruedas Canestrari Super Sport
-          28', cubiertas Michelin Super Elan, Stem Caymot, pedales Giorgia,
-          asiento italiano Iscaselle. La bicicleta es ultra liviana hecha
-          especialmente para competir, tengo las punteras de los pedales y el
-          porta-botella original, podría llegar a cambiar por una MTB.</p>
-      </div>
-    </div>
-    <div class="column">
-      <div class="card">
-        <img src="/images/bici2.jpg" alt="Thanos Competicion Rodado 28">
-        <h4 class="text">Thanos Competicion Rodado 28</h4>
-        <p class="text-1">Bicicleta de competición hecha a medida con lo mejor, cuadro francés
-          Huret talle 'M', cambios y mecánica Shimano (shifters,
-          descarriladores), frenos Weinmann, ruedas Canestrari Super Sport
-          28', cubiertas Michelin Super Elan, Stem Caymot, pedales Giorgia,
-          asiento italiano Iscaselle. La bicicleta es ultra liviana hecha
-          especialmente para competir, tengo las punteras de los pedales y el
-          porta-botella original, podría llegar a cambiar por una MTB.</p>
-      </div>
-    </div>
-    <div class="column">
-      <div class="card">
-        <img src="/images/bici4.jpg" alt="Thanos Competicion Rodado 28">
-        <h4 class="text">Thanos Competicion Rodado 28</h4>
-        <p class="text-1">Bicicleta de competición hecha a medida con lo mejor, cuadro francés
-          Huret talle 'M', cambios y mecánica Shimano (shifters,
-          descarriladores), frenos Weinmann, ruedas Canestrari Super Sport
-          28', cubiertas Michelin Super Elan, Stem Caymot, pedales Giorgia,
-          asiento italiano Iscaselle. La bicicleta es ultra liviana hecha
-          especialmente para competir, tengo las punteras de los pedales y el
-          porta-botella original, podría llegar a cambiar por una MTB.</p>
-      </div>
-    </div>
+  <div class="main">
+    <ul class="cards">
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="/images/bici.jpg" alt="Thanos Competicion Rodado 28"></div>
+          <div class="card_content">
+            <h2 class="card_title">Thanos Competicion Rodado 28</h2>
+            <p class="card_text">Bicicleta de competición hecha a medida con lo mejor, cuadro francés
+              Huret talle 'M', cambios y mecánica Shimano (shifters,
+              descarriladores), frenos Weinmann, ruedas Canestrari Super Sport
+              28', cubiertas Michelin Super Elan, Stem Caymot, pedales Giorgia,
+              asiento italiano Iscaselle. La bicicleta es ultra liviana hecha
+              especialmente para competir, tengo las punteras de los pedales y el
+              porta-botella original, podría llegar a cambiar por una MTB.</p>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="/images/bici2.jpg" alt="Thanos Competicion Rodado 28"></div>
+          <div class="card_content">
+            <h2 class="card_title">Varela Competicion Rodado 28</h2>
+            <p class="card_text">Bicicleta de competición hecha a medida con lo mejor, cuadro francés
+              Huret talle 'M', cambios y mecánica Shimano (shifters,
+              descarriladores), frenos Weinmann, ruedas Canestrari Super Sport
+              28', cubiertas Michelin Super Elan, Stem Caymot, pedales Giorgia,
+              asiento italiano Iscaselle. La bicicleta es ultra liviana hecha
+              especialmente para competir, tengo las punteras de los pedales y el
+              porta-botella original, podría llegar a cambiar por una MTB.</p>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="/images/bici3.jpg" alt="Thanos Competicion Rodado 28"></div>
+          <div class="card_content">
+            <h2 class="card_title">Thanos Competicion Rodado 28</h2>
+            <p class="card_text">Bicicleta de competición hecha a medida con lo mejor, cuadro francés
+              Huret talle 'M', cambios y mecánica Shimano (shifters,
+              descarriladores), frenos Weinmann, ruedas Canestrari Super Sport
+              28', cubiertas Michelin Super Elan, Stem Caymot, pedales Giorgia,
+              asiento italiano Iscaselle. La bicicleta es ultra liviana hecha
+              especialmente para competir, tengo las punteras de los pedales y el
+              porta-botella original, podría llegar a cambiar por una MTB.</p>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="/images/bici4.jpg" alt="Thanos Competicion Rodado 28"></div>
+          <div class="card_content">
+            <h2 class="card_title">Thanos Competicion Rodado 28</h2>
+            <p class="card_text">Bicicleta de competición hecha a medida con lo mejor, cuadro francés
+              Huret talle 'M', cambios y mecánica Shimano (shifters,
+              descarriladores), frenos Weinmann, ruedas Canestrari Super Sport
+              28', cubiertas Michelin Super Elan, Stem Caymot, pedales Giorgia,
+              asiento italiano Iscaselle. La bicicleta es ultra liviana hecha
+              especialmente para competir, tengo las punteras de los pedales y el
+              porta-botella original, podría llegar a cambiar por una MTB.</p>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="/images/bici3.jpg" alt="Thanos Competicion Rodado 28"></div>
+          <div class="card_content">
+            <h2 class="card_title">Thanos Competicion Rodado 28</h2>
+            <p class="card_text">Bicicleta de competición hecha a medida con lo mejor, cuadro francés
+              Huret talle 'M', cambios y mecánica Shimano (shifters,
+              descarriladores), frenos Weinmann, ruedas Canestrari Super Sport
+              28', cubiertas Michelin Super Elan, Stem Caymot, pedales Giorgia,
+              asiento italiano Iscaselle. La bicicleta es ultra liviana hecha
+              especialmente para competir, tengo las punteras de los pedales y el
+              porta-botella original, podría llegar a cambiar por una MTB.</p>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="/images/bici.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Bicicleta de competición hecha a medida con lo mejor, cuadro francés
+              Huret talle 'M', cambios y mecánica Shimano (shifters,
+              descarriladores), frenos Weinmann, ruedas Canestrari Super Sport
+              28', cubiertas Michelin Super Elan, Stem Caymot, pedales Giorgia,
+              asiento italiano Iscaselle. La bicicleta es ultra liviana hecha
+              especialmente para competir, tengo las punteras de los pedales y el
+              porta-botella original, podría llegar a cambiar por una MTB.</p>
+          </div>
+        </div>
+      </li>
+    </ul>
   </div>
+
   <!--  Sección de Historia  -->
   <h2 class="title-historia" id="Historia">Nuestra Historia</h2>
   <div>
-    <div class="historia-container">
-      <div class="historia-text">
+    <div class="historia-container1">
+      <div class="historia-text item-1">
         <h2 class="historia-h2">Guayerd Bikes</h2>
         <p> Bill Jobs
           (1947-2003) fue el fundador de
@@ -200,15 +191,15 @@
           Argentina y China.
         </p>
       </div>
-      <div class="historia-img">
+      <div class="historia-img item-2">
         <img src="/images/historia1.jpg" alt="Bill Jobs andando en bicicleta" class="historia-img">
       </div>
     </div>
-    <div class="historia-container">
-      <div class="historia-img">
+    <div class="historia-container2">
+      <div class="historia-img item-3">
         <img src="/images/historia-innovacion.jpg" alt="La innovación de bicicleta" class="historia-img">
       </div>
-      <div class="historia-text">
+      <div class="historia-text item-4">
         <h2 class="historia-h2">
           Innovación
         </h2>
@@ -236,8 +227,8 @@
           cuidado posible</p>
       </div>
     </div>
-    <div class="historia-container">
-      <div class="historia-text">
+    <div class="historia-container1">
+      <div class="historia-text item-5">
         <h2 class="historia-h2">Bicis</h2>
         <p>
           GUAYERD Industry
@@ -261,15 +252,15 @@
           implican y por ello GUAYERD ofrece garantía de por vida en todos sus cuadros, porque
           nadie confía en nuestras bicicletas más que nosotros.</p>
       </div>
-      <div class="historia-img">
+      <div class="historia-img item-6">
         <img src="/images/historia-bici.jpg" alt="fabricación de bicicletas" class="historia-img">
       </div>
     </div>
-    <div class="historia-container">
-      <div class="historia-img">
+    <div class="historia-container2">
+      <div class="historia-img item-7">
         <img src="/images/historia-exito.jpg" alt="fabricación de bicicletas" class="historia-img">
       </div>
-      <div class="historia-text">
+      <div class="historia-text item-8">
         <h2 class="historia-h2"> Más Éxitos
         </h2>
         <p>Durante
@@ -296,33 +287,30 @@
   </div>
 
   <!-- Sección de contacto -->
-  <h2 class="title-historia" id="Contacto">Contacto</h2>
   <main class="colorFondo">
 
     <div class="contenedor-contact">
 
       <div class="formulario">
-        <h1>Contacto</h1>
+        <h1 id="Contacto">Contacto</h1>
         <form action="">
           <div class="box-form">
-            <label for="nombre">Nombre</label>
-            <input class="container-input" type="text" placeholder="tu nombre" id="nombre" name="nombre">
-            <span class="error">Obligatorio</span>
+            <label for="nombre">Nombre *</label>
+            <input class="container-input" type="text" placeholder="tu nombre" id="nombre" name="nombre" required>
           </div>
           <div class="box-form">
-            <label for="email">Email</label>
-            <input class="container-input" type="email" placeholder="tu email" id="email" name="email">
-            <span class="error">Obligatorio</span>
+            <label for="email">Email *</label>
+            <input class="container-input" type="email" placeholder="tu email" id="email" name="email" required>
           </div>
           <div class="box-form">
-            <label for="password">Contraseña</label>
-            <input class="container-input" type="password" placeholder="tu contraseña" id="password" name="password">
-            <span class="error">Obligatorio</span>
+            <label for="password">Contraseña *</label>
+            <input class="container-input" type="password" placeholder="tu contraseña" id="password" name="password"
+              required>
           </div>
           <div>
-            <h4>Tema</h4>
+            <label for="password">Tema *</label>
             <div class="box-form">
-              <select class="container-input" name="pais" id="pais">
+              <select class="container-input" name="pais" id="pais" required>
                 <option value="" selected hidden>Elegir tema</option>
                 <option value="sale">Venta</option>
                 <option value="job">Trabajo</option>
@@ -362,7 +350,6 @@
   </main>
   <!-- Sección de footer  -->
   <footer>
-
     <div class="contenedor-de-todo-footer">
 
       <div class="contenedor-body">
@@ -373,30 +360,32 @@
         </div>
         <div class="colum2">
           <h1>Redes</h1>
-          <a href="https://www.facebook.com/">
-            <div class="icons">
-              <img src="/images/facebook.png">
-            </div>
-          </a>
-          <a href="https://twitter.com/">
-            <div class="icons">
-              <img src="/images/twitter.png">
-            </div>
-          </a>
-          <a href="https://www.instagram.com/">
-            <div class="icons">
-              <img src="/images/instagram.jpg">
+          <div class="contain-icon">
+            <a href="https://www.facebook.com/">
+              <div class="icons">
+                <img src="/images/facebook.png">
+              </div>
+            </a>
+            <a href="https://twitter.com/">
+              <div class="icons">
+                <img src="/images/twitter.png">
+              </div>
+            </a>
+            <a href="https://www.instagram.com/">
+              <div class="icons">
+                <img src="/images/instagram.jpg">
 
-            </div>
-          </a>
+              </div>
+            </a>
 
 
-          <a href="https://ar.pinterest.com/">
-            <div class="icons">
-              <img src="/images/pinterest.png">
+            <a href="https://ar.pinterest.com/">
+              <div class="icons">
+                <img src="/images/pinterest.png">
 
-            </div>
-          </a>
+              </div>
+            </a>
+          </div>
         </div>
         <div class="colum3">
           <h1>información</h1>
