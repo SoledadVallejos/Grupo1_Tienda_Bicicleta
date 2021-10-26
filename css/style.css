@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 * {
-<<<<<<< HEAD
-<<<<<<< HEAD
   margin: 0px;
   padding: 0px;
 }
@@ -85,7 +83,6 @@ form {
 
   border-radius: 1em;
 }
------
 label {
   font-family: "Comic Sans";
 
@@ -104,11 +101,8 @@ textarea {
 textarea {
   vertical-align: top;
   height: 5em;
-=======
-=======
   margin: 0;
   padding: 0;
->>>>>>> main
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, segoe ui, roboto, oxygen,
     cantarell, helvetica neue, ubuntu, sans-serif;
@@ -494,10 +488,7 @@ button:hover {
 }
 
 .border-map {
-<<<<<<< HEAD
   border-radius: 15px;
->>>>>>> main
-=======
   border-radius: 5px;
 }
 
@@ -604,5 +595,4 @@ footer {
 
 .politica a {
   color: #fff;
->>>>>>> main
 }
