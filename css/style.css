@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:-apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, roboto, oxygen,
+    cantarell, helvetica neue, ubuntu, sans-serif;
 }
-body{
-  background-color: #B4D4F3;
+body {
+  background-color: #b4d4f3;
 }
 /* NAVEGACIÓN */
-.nav{
+.nav {
   position: relative;
   width: 100%;
   min-height: 80vh;
@@ -21,7 +22,7 @@ body{
   align-items: center;
   padding: 100px;
 }
-.nav-header{
+.nav-header {
   position: absolute;
   top: 0;
   left: 0;
@@ -31,7 +32,7 @@ body{
   justify-content: space-between;
   align-items: center;
 }
-.nav-header .logo{
+.nav-header .logo {
   position: relative;
   font-size: 2em;
   color: #fff;
@@ -40,40 +41,40 @@ body{
   text-decoration: none;
   letter-spacing: 0.5em;
 }
-.nav-header .nav-ul{
+.nav-header .nav-ul {
   position: relative;
   display: flex;
 }
-.nav-header .nav-ul li{
+.nav-header .nav-ul li {
   list-style: none;
 }
-.nav-header .nav-ul li a{
+.nav-header .nav-ul li a {
   display: inline-block;
   color: #fff;
   margin-right: 40px;
   text-decoration: none;
 }
-.nav-header .nav-ul li a:hover{
+.nav-header .nav-ul li a:hover {
   color: #03a9f4;
 }
 
-@media (max-width: 991px){
-  .nav-header{
+@media (max-width: 991px) {
+  .nav-header {
     padding: 15px 40px;
   }
-  .nav{
+  .nav {
     padding: 40px;
     background: url(https://cdn.pixabay.com/photo/2020/04/17/14/07/athlete-5055367_960_720.jpg);
     background-size: cover;
     background-position: center;
   }
-  .content .contentBx h2{
+  .content .contentBx h2 {
     font-size: 2.5em;
   }
-  .content .contentBx p{
+  .content .contentBx p {
     font-size: 1em;
   }
-  .nav-header .nav-ul{
+  .nav-header .nav-ul {
     position: fixed;
     top: 0;
     left: 0;
@@ -86,14 +87,14 @@ body{
     align-items: center;
     flex-direction: column;
   }
-  .nav-header .nav-ul.active{
+  .nav-header .nav-ul.active {
     display: flex;
   }
-  .nav-header .nav-ul li a{
+  .nav-header .nav-ul li a {
     font-size: 24px;
     margin: 10px 0;
   }
-  .toggle{
+  .toggle {
     position: relative;
     width: 30px;
     height: 30px;
@@ -117,7 +118,7 @@ body{
   text-align: center;
   margin-top: 30px;
 }
-.main{
+.main {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -161,13 +162,13 @@ body{
   flex-direction: column;
   overflow: hidden;
 }
-.card:hover{
+.card:hover {
   top: 10px;
 }
 
 .card_content {
   padding: 1rem;
-  background: #6994BE;
+  background: #6994be;
 }
 
 .card_title {
@@ -184,7 +185,7 @@ body{
   color: #ffffff;
   font-size: 0.875rem;
   line-height: 1.5;
-  margin-bottom: 1.25rem;    
+  margin-bottom: 1.25rem;
   font-weight: 400;
 }
 /* HISTORIA */
@@ -295,16 +296,16 @@ body{
   }
 }
 /* CONTACTO */
-.colorFondo{
+.colorFondo {
   background-color: #fff;
   padding-top: 20px;
 }
 .contenedor-contact {
   display: flex;
-  background-color: #6994BE;
+  background-color: #6994be;
   width: 65%;
   margin: auto;
-  padding: 20px 0;
+  padding: 20px;
 }
 
 .formulario {
@@ -395,15 +396,15 @@ button:hover {
 /* FOOTER */
 footer {
   width: 100%;
-  background-color: #6994BE;
-  color: #000000;
+  background-color: #335563;
+  color: #fff;
 }
 .contenedor-de-todo-footer {
   width: 100%;
   max-width: 1600px;
   margin: auto;
-  margin-top: 30;
-  background: #212c65;
+
+  background: #335563;
 }
 
 .contenedor-body {
@@ -413,6 +414,7 @@ footer {
 
 .colum1 {
   max-width: 400px;
+  margin: 20px 0 0 20px;
 }
 
 .colum1 h1 {
@@ -421,34 +423,33 @@ footer {
 
 .colum1 p {
   font-size: 14px;
-  color: #000000;
+  color: #fff;
   margin-top: 20px;
 }
 
 .colum2 {
   max-width: 400px;
   justify-content: center;
-  display: flex;
 }
 
 .colum2 h1 {
   font-size: 22px;
   display: inline-block;
 }
-.contain-icon{
-  display: flex;
+.contain-icon {
   gap: 10px;
 }
 
 .icons img {
   width: 36px;
   height: 36px;
+  margin-top: 10px;
 }
 
 .icons label {
   margin-top: 10px;
   margin-left: 20px;
-  color: #000000;
+  color: #fff;
 }
 
 .colum3 {
@@ -478,20 +479,20 @@ footer {
 }
 
 .contenedor-body2 {
-  background: #000000;
+  background: #335563;
   display: flex;
   padding: 19px;
   justify-content: space-around;
 }
 
 .copyright {
-  color: #212c65;
+  color: #fff;
 }
 
 .copyright a {
-  color: #212c65;
+  color: #fff;
 }
 
 .politica a {
-  color: #212c65;
+  color: #fff;
 }
