@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ff00ff;
+}
+.historia-img{
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+}
+.texto-h2{
+    text-align: center;
+    padding: 15px 0;
+}
+.texto-p{
+    padding-left: 20px;
+}
+.texto-p1{
+    padding-right: 20px;
+}
+
+.texto-guayerd{
+    grid-area: guayerd;
+}
+.img-guayerd{
+    grid-area: img-guayerd;
+}
+.texto-innovacion{
+    grid-area: innovacion;
+}
+.img-innovacion{
+    grid-area: img-innovacion;
+}
+.texto-bicis{
+    grid-area: bicis;
+}
+.img-bicis{
+    grid-area: img-bicis;
+}
+.texto-exito{
+    grid-area: exito;
+}
+.img-exito{
+    grid-area: img-exito;
+}
+
+.historia-container{
+    padding-bottom: 40px;
+    background-color: #fff;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+      "guayerd"
+      "img-guayerd";
+}
+@media (min-width: 800px) {
+    .historia-container {
+      grid-template-columns: 7fr 3fr;
+      grid-template-areas:
+        "guayerd img-guayerd";
+    }
+}
+
+.historia-container1{
+    padding-bottom: 40px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+      "innovacion"
+      "img-innovacion";
+}
+@media (min-width: 800px) {
+    .historia-container1 {
+      grid-template-columns: 3fr 7fr;
+      grid-template-areas:
+        "img-innovacion innovacion";
+    }
+}
+
+.historia-container2{
+    padding-bottom: 40px;
+    background-color: #fff;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+      "bicis"
+      "img-bicis";
+}
+@media (min-width: 800px) {
+    .historia-container2 {
+      grid-template-columns: 7fr 3fr;
+      grid-template-areas:
+        "bicis img-bicis";
+    }
+}
+
+.historia-container3{
+    padding-bottom: 40px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+      "exito"
+      "img-exito";
+}
+@media (min-width: 800px) {
+    .historia-container3 {
+      grid-template-columns: 3fr 7fr;
+      grid-template-areas:
+        "img-exito exito";
+    }
+}
