@@ -105,7 +105,7 @@ body {
     cursor: pointer;
     z-index: 11;
   }
-  .toggle.active{
+  .toggle.active {
     background-image: url(/images/cerrar-nav.png);
     background-position: center;
     background-size: 25px;
@@ -189,48 +189,48 @@ body {
   font-weight: 400;
 }
 /* HISTORIA */
-.historia-img{
+.historia-img {
   width: 100%;
   height: auto;
   margin-top: 25px;
 }
-.texto-h2{
+.texto-h2 {
   text-align: center;
   padding: 15px 0;
 }
-.texto-p{
+.texto-p {
   padding-left: 20px;
 }
-.texto-p1{
+.texto-p1 {
   padding-right: 20px;
 }
 
-.texto-guayerd{
+.texto-guayerd {
   grid-area: guayerd;
 }
-.img-guayerd{
+.img-guayerd {
   grid-area: img-guayerd;
 }
-.texto-innovacion{
+.texto-innovacion {
   grid-area: innovacion;
 }
-.img-innovacion{
+.img-innovacion {
   grid-area: img-innovacion;
 }
-.texto-bicis{
+.texto-bicis {
   grid-area: bicis;
 }
-.img-bicis{
+.img-bicis {
   grid-area: img-bicis;
 }
-.texto-exito{
+.texto-exito {
   grid-area: exito;
 }
-.img-exito{
+.img-exito {
   grid-area: img-exito;
 }
 
-.historia-container{
+.historia-container {
   padding-bottom: 40px;
   background-color: #fff;
   display: grid;
@@ -242,12 +242,11 @@ body {
 @media (min-width: 800px) {
   .historia-container {
     grid-template-columns: 7fr 3fr;
-    grid-template-areas:
-      "guayerd img-guayerd";
+    grid-template-areas: "guayerd img-guayerd";
   }
 }
 
-.historia-container1{
+.historia-container1 {
   padding-bottom: 40px;
   display: grid;
   grid-gap: 20px;
@@ -258,12 +257,11 @@ body {
 @media (min-width: 800px) {
   .historia-container1 {
     grid-template-columns: 3fr 7fr;
-    grid-template-areas:
-      "img-innovacion innovacion";
+    grid-template-areas: "img-innovacion innovacion";
   }
 }
 
-.historia-container2{
+.historia-container2 {
   padding-bottom: 40px;
   background-color: #fff;
   display: grid;
@@ -275,12 +273,11 @@ body {
 @media (min-width: 800px) {
   .historia-container2 {
     grid-template-columns: 7fr 3fr;
-    grid-template-areas:
-      "bicis img-bicis";
+    grid-template-areas: "bicis img-bicis";
   }
 }
 
-.historia-container3{
+.historia-container3 {
   padding-bottom: 40px;
   display: grid;
   grid-gap: 20px;
@@ -291,14 +288,14 @@ body {
 @media (min-width: 800px) {
   .historia-container3 {
     grid-template-columns: 3fr 7fr;
-    grid-template-areas:
-      "img-exito exito";
+    grid-template-areas: "img-exito exito";
   }
 }
 /* CONTACTO */
 .colorFondo {
   background-color: #fff;
-  padding-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .contenedor-contact {
   display: flex;
@@ -434,9 +431,10 @@ footer {
 
 .colum2 h1 {
   font-size: 22px;
-  display: inline-block;
+  text-align: center;
 }
 .contain-icon {
+  display: flex;
   gap: 10px;
 }
 
