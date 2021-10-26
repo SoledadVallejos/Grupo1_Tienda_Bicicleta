@@ -1,4 +1,5 @@
 * {
+<<<<<<< HEAD
   margin: 0px;
   padding: 0px;
 }
@@ -101,4 +102,161 @@ textarea {
 textarea {
   vertical-align: top;
   height: 5em;
+=======
+  box-sizing: border-box;
+}
+
+/* <--- Seccion de productos ---> */
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin: 20px;
+  }
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #01a1dd;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+.card img {
+  width: 100%;
+  border-radius: 7px 7px 0 0;
+}
+.text {
+  font-size: 17px;
+  text-align: center;
+  height: 40px;
+}
+.text-1 {
+  font-size: 14px;
+  padding: 0 10px 0 10px;
+}
+.card:hover {
+  box-shadow: 0 7px 16px 0 rgb(0 0 0 / 20%), 0 1px 3px 0 rgb(0 0 0 / 10%);
+  top: 5px;
+}
+
+footer {
+  width: 100%;
+  background: darkblue;
+  color: white;
+}
+
+/* CONTACTO */
+.colorFondo {
+  background-color: #212c65;
+}
+
+.contenedor-contact {
+  display: flex;
+  background-color: #01a1dd;
+  width: 65%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.formulario {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.formulario h1 {
+  margin: auto;
+
+  font-size: 35px;
+  /* margin-top: 35px; */
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.box-form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+label {
+  margin: 5px 0;
+}
+
+input,
+select {
+  padding: 5px;
+  margin: 5px 0;
+}
+
+span.error {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.box-check {
+  display: flex;
+  align-items: center;
+}
+
+.box-check label {
+  margin-left: 5px;
+}
+
+.container-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #212c65;
+  width: 100px;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 15px 25px 0;
+}
+
+button:hover {
+  background-color: #0f1225;
+  cursor: pointer;
+}
+
+.register .box-button {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.map {
+  margin: 5px 0;
+
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.border-map {
+  border-radius: 15px;
+>>>>>>> main
 }
