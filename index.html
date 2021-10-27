@@ -47,6 +47,8 @@
   <script src="/javascript/index.js"></script>
   <!-- Libreria de SweetAlert2 -->
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!--  Link a icon de saludo  -->
+  <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
 
   <title>Guayerd Bikes - Bicicletas de Competición y Urbanas</title>
 </head>
@@ -63,9 +65,20 @@
         <li><a class="prada" href="#Contacto">Contactos</a></li>
       </ul>
     </header>
+    <!--  Saludo dependiendo de la hora  -->
+    <div id="welcome-section">
+      <div class="content-header">
+        <div class="text-typing">
+          <p id="demo"></p>
+        </div>
+        <button class="grow" onclick="queHaciendo()"><span style="margin-right: 10px;">👋</span> Quiero mi
+          saludo!</button>
+      </div>
   </section>
-  <!--  Sección de productos -->
 
+
+
+  <!--  Sección de productos -->
   <h2 class="title-historia" id="Productos">Productos</h2>
   <div class="main">
     <ul class="cards">
@@ -288,6 +301,7 @@
       </div>
     </div>
   </section>
+
   <!-- Sección de contacto -->
   <main class="colorFondo">
 
@@ -335,8 +349,8 @@
             </div>
 
             <div class="box-button">
-              <button type="submit">Enviar</button>
-              <button type="reset">Cancelar</button>
+              <button class="btn" type="submit">Enviar</button>
+              <button class="btn" type="reset">Cancelar</button>
             </div>
           </div>
         </form>
@@ -350,6 +364,7 @@
 
     </div>
   </main>
+
   <!-- Sección de footer  -->
   <footer>
     <div class="contenedor-de-todo-footer">

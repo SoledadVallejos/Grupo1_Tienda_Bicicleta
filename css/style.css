@@ -113,6 +113,78 @@ body {
     position: fixed;
   }
 }
+
+/*  Saludo dependiendo de la hora  */
+#welcome-section {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+#welcome-section::after {
+  width: 100%;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.8;
+}
+
+#welcome-section * {
+  position: relative;
+  z-index: 1;
+}
+
+#welcome-section h1 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1;
+}
+.grow {
+  font-size: 15px;
+  background-color: #333333;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 12px 30px;
+  text-decoration: none;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+/* animacion de saludo*/
+.text-typing {
+    font-size:30px;
+    padding:10px 10px;
+}
+.text-typing p {
+  color:#000;
+  margin:0px;
+  white-space:nowrap;
+  overflow:hidden;
+  animation:typing 4s steps(22,end) forwards,
+  blink 1s infinite;
+}
+@keyframes typing {
+  0% { width:0% }
+  100% { width:100% }
+}
+@keyframes blink {
+  0%,100% {
+    border-right:2px solid transparent;
+  }
+  50% {
+    border-right:2px solid #222;
+  }
+}
 /* <--- PRODUCTOS ---> */
 .title-historia {
   text-align: center;
@@ -358,7 +430,7 @@ span.error {
   border-radius: 5px;
 }
 
-button {
+.btn {
   background-color: #212c65;
   width: 100px;
   color: #ffffff;
@@ -368,7 +440,7 @@ button {
   margin: 15px 25px 0;
 }
 
-button:hover {
+.btn:hover {
   background-color: #0f1225;
   cursor: pointer;
 }
