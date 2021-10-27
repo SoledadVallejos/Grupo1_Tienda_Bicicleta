@@ -595,3 +595,9 @@ footer {
 .politica a {
   color: #fff;
 }
+
+.oferta{
+  margin-left: 20px;
+  max-width: 120px;
+  margin-top: 10px;
+}
