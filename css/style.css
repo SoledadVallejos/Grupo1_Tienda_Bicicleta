@@ -1,5 +1,105 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 * {
+  margin: 0px;
+  padding: 0px;
+}
+
+body > * {
+  margin-bottom: 50px;
+}
+
+body {
+  background-color:#212C65;
+}
+.todo {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px;
+  text-align: end;
+  margin: 0 100px 0 0;
+  }
+
+  .home {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 50px 20px;
+    text-align: end;
+    margin:10%;
+    }
+
+.producto {
+list-style: none;
+display: flex;
+justify-content: flex-end;
+padding: 50px;
+text-align: end;
+margin: top;
+}
+
+      .contacto {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        padding: 50px;
+        text-align: end;
+        margin: top;
+        }
+
+nav {
+  padding: 50px;
+  background-color:#01A1DD;
+  position: sticky;
+  top: 20px;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header {
+  width: 100%;
+  justify-content: flex-start;
+  margin: 0cm;
+}
+
+/*Aqui empieza Formulario*/
+
+.formu {
+  display: flex;
+  justify-content: flex-start;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+
+  border-radius: 1em;
+}
+label {
+  font-family: "Comic Sans";
+
+  display: inline-block;
+  width: 60px;
+  padding: 10px;
+}
+
+input,
+textarea {
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -387,6 +487,7 @@ button:hover {
 }
 
 .border-map {
+  border-radius: 15px;
   border-radius: 5px;
 }
 
@@ -493,4 +594,10 @@ footer {
 
 .politica a {
   color: #fff;
+}
+
+.oferta{
+  margin-left: 20px;
+  max-width: 120px;
+  margin-top: 10px;
 }
