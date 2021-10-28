@@ -41,3 +41,26 @@ function queHaciendo() {
     }
     document.getElementById("demo").innerHTML = saludo;
 }
+
+
+//boton ir hasta arriba 
+window.onload = () => {
+    const buttonDown = document.getElementById("button-down");
+    buttonDown.addEventListener("click", () => {
+        window.scrollTo(0, 0);
+    });
+};
+
+//cupon
+Swal.fire({
+    title: 'Custom width, padding, background.',
+    width: 600,
+    padding: '3em',
+    background: '#fff url(/images/trees.png)',
+    backdrop: `
+      rgba(0,0,123,0.4)
+      url("/images/nyan-cat.gif")
+      left top
+      no-repeat
+    `
+})
