@@ -52,15 +52,19 @@ window.onload = () => {
 };
 
 //cupon
-Swal.fire({
-    title: 'Custom width, padding, background.',
-    width: 600,
-    padding: '3em',
-    background: '#fff url(/images/trees.png)',
-    backdrop: `
-      rgba(0,0,123,0.4)
-      url("/images/nyan-cat.gif")
-      left top
-      no-repeat
-    `
-})
+let cupon = "30% de descuento";
+function tocame() {
+    Swal.fire({
+        title: 'Te has ganado un cupon de: ' + cupon,
+        width: 500,
+        padding: '3em',
+        background: '#fff url(/images/trees.png)',
+        backdrop: `
+          rgba(0,0,123,0.4)
+          url("/images/confite.gif")
+          center center
+          no-repeat
+        `
+    })
+
+}
