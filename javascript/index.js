@@ -77,7 +77,7 @@ function tocame() {
             title: "Suerte en la proxima, " + cupon,
             width: 500,
             padding: "3em",
-            background: "#fff url(/images/historia1.jpg)",
+            background: "#fff url()",
             backdrop: `
         rgba(99, 171, 204, 0.4)
           no-repeat
@@ -88,7 +88,7 @@ function tocame() {
             title: "Te has ganado un cupon de: " + cupon,
             width: 500,
             padding: "3em",
-            background: "#fff url(/images/historia1.jpg)",
+            background: "#fff url()",
             backdrop: `
         rgba(99, 171, 204, 0.4)
           url("/images/confite.gif")
