@@ -47,6 +47,7 @@
   <script src="/javascript/index.js"></script>
   <!-- Libreria de SweetAlert2 -->
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
   <!--  Link a icon de saludo  -->
   <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
 
@@ -54,6 +55,10 @@
 </head>
 
 <body>
+
+  <!-- Boton para subir hasta arriba -->
+  <span class="ir-arriba" id="button-down">^</span>
+
   <!--  Sección de navegador   -->
   <section class="nav">
     <header class="nav-header">
@@ -78,6 +83,14 @@
       </div>
   </section>
 
+  <!-- Sección de cupon de descuento  -->
+  <div class="cupon-content">
+    <h2>¿Te queres ganar un descuento en tu proxima compra?</h2>
+    <p>Toca el boton</p>
+    <div class="cupon-btn">
+      <button id="tocame">tocame</button>
+    </div>
+  </div>
 
 
   <!--  Sección de productos -->
