@@ -204,20 +204,26 @@ body {
 /*   CUPON PARA DESCUENTO    */
 .cupon-content {
   width: 90%;
-  background-color: #fff;
-  border-radius: 0.25rem;
+  background-color: #024959;
+  color: #fff;
+  border-radius: 0.5rem;
   margin: 40px auto;
 
 }
-.cupon-content h2, .cupon-content p{
+.cupon-content p{
   text-align: center;
+  font-size: 25px;
 }
 .cupon-btn{
   display: flex;
   justify-content: center;
   padding-bottom: 10px;
 }
-
+.cupon-btn button{
+  padding: 8px 50px;
+  border-radius: 0.5rem;
+  border: none;
+}
 
 /*    PRODUCTOS    */
 .title-historia {
