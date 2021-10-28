@@ -69,17 +69,35 @@ function tocame() {
     case 5:
       cupon = "25HOTSALE para obtener un 25% de descuento";
       break;
+    default:
+      cupon = "Segui participando!";
+      break;
   }
-  Swal.fire({
-    title: "Te has ganado un cupon de: " + cupon,
-    width: 500,
-    padding: "3em",
-    background: "#fff url(/images/trees.png)",
-    backdrop: `
+  if (cupon === "Segui participando!") {
+    Swal.fire({
+      title: "Suerte en la proxima, " + cupon,
+      width: 500,
+      padding: "3em",
+      background: "#fff url(/images/trees.png)",
+      backdrop: `
         rgba(99, 171, 204, 0.4)
           url("/images/confite.gif")
           center center
           no-repeat
         `,
-  });
+    });
+  } else if (cupon !== "Segui participando!") {
+    Swal.fire({
+      title: "Te has ganado un cupon de: " + cupon,
+      width: 500,
+      padding: "3em",
+      background: "#fff url(/images/trees.png)",
+      backdrop: `
+        rgba(99, 171, 204, 0.4)
+          url("/images/confite.gif")
+          center center
+          no-repeat
+        `,
+    });
+  }
 }
