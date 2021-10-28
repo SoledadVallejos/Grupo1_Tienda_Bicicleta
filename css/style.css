@@ -66,42 +66,6 @@ a {
   margin: 0cm;
 }
 
-/*Aqui empieza Formulario*/
-
-.formu {
-  display: flex;
-  justify-content: flex-start;
-}
-
-form {
-  margin: 0 auto;
-  width: 400px;
-  padding: 1em;
-
-  border-radius: 1em;
-}
-label {
-  font-family: "Comic Sans";
-  display: inline-block;
-  padding: 10px;
-}
-
-input,
-textarea {
-  width: 300px;
-  box-sizing: border-box;
-  border: 1px solid;
-}
-
-textarea {
-  vertical-align: top;
-  height: 5em;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, segoe ui, roboto, oxygen,
-    cantarell, helvetica neue, ubuntu, sans-serif;
-}
 body {
   background-color: #b4d4f3;
 }
@@ -507,6 +471,42 @@ body {
   }
 }
 /* CONTACTO */
+/*Aqui empieza Formulario*/
+
+.formu {
+  display: flex;
+  justify-content: flex-start;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+
+  border-radius: 1em;
+}
+label {
+  font-family: "Comic Sans";
+  display: inline-block;
+  padding: 10px;
+}
+
+
+textarea {
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, roboto, oxygen,
+    cantarell, helvetica neue, ubuntu, sans-serif;
+}
 .colorFondo {
   background-color: #fff;
   padding-top: 40px;
@@ -543,11 +543,10 @@ body {
   margin: 20px 0;
 }
 
-label {
+.label {
   margin: 5px 0;
 }
 
-input,
 select {
   padding: 5px;
   margin: 5px 0;
@@ -571,6 +570,7 @@ span.error {
   padding: 10px;
   border: none;
   border-radius: 5px;
+  width: 300px;
 }
 
 .btn {
