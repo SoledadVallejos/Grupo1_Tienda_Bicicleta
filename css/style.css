@@ -1,8 +1,6 @@
 * {
-<<<<<<< HEAD
   padding: 0px;
   margin: 0px;
-=======
   margin: 0px;
   padding: 0px;
 }
@@ -98,7 +96,6 @@ textarea {
 textarea {
   vertical-align: top;
   height: 5em;
->>>>>>> ca7406a16c6993b45d016387c302404ab8a11597
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -374,7 +371,7 @@ body {
   font-size: 16px;
   padding: 0 10px 0 10px;
   font-family:"Comic Sans MS", "Comic Sans", cursive;
-
+}
 
 .card_content {
   padding: 1rem;
@@ -441,9 +438,7 @@ body {
   grid-area: img-exito;
 }
 
-<<<<<<< HEAD
 
-=======
 .historia-container {
   padding-bottom: 40px;
   background-color: #fff;
@@ -505,7 +500,6 @@ body {
     grid-template-areas: "img-exito exito";
   }
 }
->>>>>>> 17ad2b7cd9da26255c0efcca66ef496461eb8aef
 /* CONTACTO */
 .colorFondo {
   background-color: #fff;
@@ -714,13 +708,8 @@ footer {
   color: #fff;
 }
 
-<<<<<<< HEAD
-div#imagen{
-  
-=======
 .oferta{
   margin-left: 20px;
   max-width: 120px;
   margin-top: 10px;
->>>>>>> ca7406a16c6993b45d016387c302404ab8a11597
 }
