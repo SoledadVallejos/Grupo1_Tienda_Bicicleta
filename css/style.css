@@ -3,10 +3,6 @@
   padding: 0px;
 }
 
-body > * {
-  margin-bottom: 50px;
-}
-
 body {
   background-color:#212C65;
 }
@@ -37,14 +33,14 @@ text-align: end;
 margin: top;
 }
 
-      .contacto {
-        list-style: none;
-        display: flex;
-        justify-content: flex-end;
-        padding: 50px;
-        text-align: end;
-        margin: top;
-        }
+.contacto {
+list-style: none;
+display: flex;
+ justify-content: flex-end;
+padding: 50px;
+text-align: end;
+margin: top;
+}
 
 nav {
   padding: 50px;
@@ -84,9 +80,7 @@ form {
 }
 label {
   font-family: "Comic Sans";
-
   display: inline-block;
-  width: 60px;
   padding: 10px;
 }
 
@@ -127,7 +121,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 30px 100px;
+  padding: 30px 35px;
   display: flex;
   justify-content: space-between;
   align-items: center;
