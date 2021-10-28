@@ -52,15 +52,34 @@ window.onload = () => {
 };
 
 //cupon
-let cupon = "30% de descuento";
+
 function tocame() {
+    let random = Math.floor(Math.random() * 6);
+    let cupon;
+    switch (random) {
+        case 1:
+            cupon = "5HOTSALE para obtener un 5% de descuento";
+            break;
+        case 2:
+            cupon = "10HOTSALE para obtener un 10% de descuento";
+            break;
+        case 3:
+            cupon = "15HOTSALE para obtener un 15% de descuento";
+            break;
+        case 4:
+            cupon = "20HOTSALE para obtener un 20% de descuento";
+            break;
+        case 5:
+            cupon = "25HOTSALE para obtener un 25% de descuento";
+            break;
+    }
     Swal.fire({
         title: 'Te has ganado un cupon de: ' + cupon,
         width: 500,
         padding: '3em',
         background: '#fff url(/images/trees.png)',
         backdrop: `
-          rgba(0,0,123,0.4)
+        rgba(99, 171, 204, 0.4)
           url("/images/confite.gif")
           center center
           no-repeat
