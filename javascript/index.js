@@ -49,7 +49,6 @@ window.onload = () => {
 };
 
 //cupon
-
 function tocame() {
     let random = Math.floor(Math.random() * 6);
     let cupon;
@@ -78,11 +77,9 @@ function tocame() {
             title: "Suerte en la proxima, " + cupon,
             width: 500,
             padding: "3em",
-            background: "#fff url(/images/trees.png)",
+            background: "#fff url(/images/historia1.jpg)",
             backdrop: `
         rgba(99, 171, 204, 0.4)
-          url("/images/confite.gif")
-          center center
           no-repeat
         `,
         });
@@ -91,7 +88,7 @@ function tocame() {
             title: "Te has ganado un cupon de: " + cupon,
             width: 500,
             padding: "3em",
-            background: "#fff url(/images/trees.png)",
+            background: "#fff url(/images/historia1.jpg)",
             backdrop: `
         rgba(99, 171, 204, 0.4)
           url("/images/confite.gif")
