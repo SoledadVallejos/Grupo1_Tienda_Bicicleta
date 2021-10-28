@@ -1,7 +1,104 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 * {
+<<<<<<< HEAD
   padding: 0px;
   margin: 0px;
+=======
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color:#212C65;
+}
+.todo {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px;
+  text-align: end;
+  margin: 0 100px 0 0;
+  }
+
+  .home {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 50px 20px;
+    text-align: end;
+    margin:10%;
+    }
+
+.producto {
+list-style: none;
+display: flex;
+justify-content: flex-end;
+padding: 50px;
+text-align: end;
+margin: top;
+}
+
+.contacto {
+list-style: none;
+display: flex;
+ justify-content: flex-end;
+padding: 50px;
+text-align: end;
+margin: top;
+}
+
+nav {
+  padding: 50px;
+  background-color:#01A1DD;
+  position: sticky;
+  top: 20px;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header {
+  width: 100%;
+  justify-content: flex-start;
+  margin: 0cm;
+}
+
+/*Aqui empieza Formulario*/
+
+.formu {
+  display: flex;
+  justify-content: flex-start;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+
+  border-radius: 1em;
+}
+label {
+  font-family: "Comic Sans";
+  display: inline-block;
+  padding: 10px;
+}
+
+input,
+textarea {
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+>>>>>>> ca7406a16c6993b45d016387c302404ab8a11597
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -29,7 +126,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 30px 100px;
+  padding: 30px 35px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -115,13 +212,119 @@ body {
     position: fixed;
   }
 }
-/* <--- PRODUCTOS ---> */
+
+/*  Saludo dependiendo de la hora  */
+#welcome-section {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+#welcome-section::after {
+  width: 100%;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.8;
+}
+
+#welcome-section * {
+  position: relative;
+  z-index: 1;
+}
+
+#welcome-section h1 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1;
+}
+.grow {
+  font-size: 15px;
+  background-color: #333333;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 12px 30px;
+  text-decoration: none;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+/* animacion de saludo*/
+.text-typing {
+    font-size:30px;
+    padding:10px 10px;
+}
+.text-typing p {
+  color:#000;
+  margin:0px;
+  white-space:nowrap;
+  overflow:hidden;
+  animation:typing 4s steps(22,end) forwards,
+  blink 1s infinite;
+}
+@keyframes typing {
+  0% { width:0% }
+  100% { width:100% }
+}
+@keyframes blink {
+  0%,100% {
+    border-right:2px solid transparent;
+  }
+  50% {
+    border-right:2px solid #222;
+  }
+}
+
+/*   Boton para subir hasta arriba   */
+.ir-arriba {
+	background:#024959;
+	color:#fff;
+	display:block;
+	cursor:pointer;
+	position: fixed;
+	font-size:20px;
+	padding: 10px 15px;
+  border-radius: 50%;
+	bottom:20px;
+	right:20px;
+}
+
+
+/*   CUPON PARA DESCUENTO    */
+.cupon-content {
+  width: 90%;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  margin: 40px auto;
+
+}
+.cupon-content h2, .cupon-content p{
+  text-align: center;
+}
+.cupon-btn{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+
+/*    PRODUCTOS    */
 .title-historia {
   text-align: center;
   margin-top: 30px;
 }
 .main {
-  max-width: 1200px;
+  max-width: 1150px;
   margin: 0 auto;
 }
 
@@ -370,7 +573,7 @@ span.error {
   border-radius: 5px;
 }
 
-button {
+.btn {
   background-color: #212c65;
   width: 100px;
   color: #ffffff;
@@ -380,7 +583,7 @@ button {
   margin: 15px 25px 0;
 }
 
-button:hover {
+.btn:hover {
   background-color: #0f1225;
   cursor: pointer;
 }
@@ -399,6 +602,7 @@ button:hover {
 }
 
 .border-map {
+  border-radius: 15px;
   border-radius: 5px;
 }
 
@@ -510,6 +714,13 @@ footer {
   color: #fff;
 }
 
+<<<<<<< HEAD
 div#imagen{
   
+=======
+.oferta{
+  margin-left: 20px;
+  max-width: 120px;
+  margin-top: 10px;
+>>>>>>> ca7406a16c6993b45d016387c302404ab8a11597
 }
