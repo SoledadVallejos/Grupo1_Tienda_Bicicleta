@@ -62,8 +62,16 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
   <script src="/javascript/index.js"></script>
+  
   <!-- Libreria de SweetAlert2 -->
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!--heatmap-->
+<script>
+  (function(h,e,a,t,m,p) {
+  m=e.createElement(a);m.async=!0;m.src=t;
+  p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
+  })(window,document,'script','https://u.heatmap.it/log.js');
+  </script>
 
   <!--  Link a icon de saludo  -->
   <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
@@ -76,72 +84,7 @@
   <!-- Boton para subir hasta arriba -->
   <span class="ir-arriba" id="button-down">^</span>
 
-  <!--  Sección de navegador   -->
-  <header>
-    <nav>
-      <ul>
-        <ul>
-          <div class="header"><a href="index.html">
-              <h1>Tienda de Bicicletas</h1>
-            </a>
-            <nav>
-              <ul>
-                <div class="index"><a href="#Historia">Historia</a></div>
-                <div class="prod"><a href="#Productos">Productos</a></div>
-                <div class="ref"><a href="#Contacto">Contactos</a></div>
-              </ul>
-            </nav>
-
-            <p class="parrafo">
-            <h1>Bicicletas de competición y urbanas</h1>
-            </p>
-  </header>
-  <!--  Sección de productos -->
-  <h2 class="title-historia" id="Productos">Productos</h2>
-  <div class="row">
-    <div class="column" id="imagen">
-      <div class="card">
-        <img src="/images/bici.jpg" alt="Thanos Competicion Rodado 28">
-        <h5 class="text">Urbana Crossway 40</h5>
-        <p class="text-1">Bicicleta de competición hecha a medida con lo mejor, cuadro francés
-          Huret talle 'M', cambios y mecánica Shimano (shifters,
-          descarriladores), frenos Weinmann, ruedas Canestrari Super Sport
-          28', cubiertas Michelin Super Elan, Stem Caymot, pedales Giorgia,
-          asiento italiano Iscaselle. La bicicleta es ultra liviana hecha
-          especialmente para competir, tengo las punteras de los pedales y el
-          porta-botella original, podría llegar a cambiar por una MTB.
-        </p>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="card">
-        <img src="/images/bici2.jpg" alt="Thanos Competicion Rodado 28">
-        <h4 class="text">Varela Competicion Aluminio Rodado 28</h4>
-        <p class="text-1">Bicicleta de competición hecha a medida con lo mejor, cuadro francés
-          Huret talle 'M', cambios y mecánica Shimano (shifters,
-          descarriladores), frenos Weinmann, ruedas Canestrari Super Sport
-          28', cubiertas Michelin Super Elan, Stem Caymot, pedales Giorgia,
-          asiento italiano Iscaselle. La bicicleta es ultra liviana hecha
-          especialmente para competir, tengo las punteras de los pedales y el
-          porta-botella original, podría llegar a cambiar por una MTB.
-        </p>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="card">
-        <img src="/images/bici3.jpg" alt="Thanos Competicion Rodado 28">
-        <h4 class="text">Thanos Competicion Rodado 28</h4>
-        <p class="text-1">Bicicleta de competición hecha a medida con lo mejor, cuadro francés
-          Huret talle 'M', cambios y mecánica Shimano (shifters,
-          descarriladores), frenos Weinmann, ruedas Canestrari Super Sport
-          28', cubiertas Michelin Super Elan, Stem Caymot, pedales Giorgia,
-          asiento italiano Iscaselle. La bicicleta es ultra liviana hecha
-          especialmente para competir, tengo las punteras de los pedales y el
-          porta-botella original, podría llegar a cambiar por una MTB.</p>
-      </div>
-    </div>
+  
   <section class="nav">
     <header class="nav-header">
       <a href="#" class="logo">Guayerd Bikes</a>
@@ -176,6 +119,7 @@
 
 
   <!--  Sección de productos -->
+  <script src="/javascript/productos.js"></script>
   <h2 class="title-historia" id="Productos">Productos</h2>
   <div class="main">
     <ul class="cards">
