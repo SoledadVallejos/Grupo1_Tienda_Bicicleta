@@ -64,3 +64,33 @@ Swal.fire({
       no-repeat
     `
 })
+
+
+/* funcion para capturar input formulario */
+const botonEnviar = document.getElementById("botonenviar")
+const obtenerDatos= ()=>{
+    let nombre = document.getElementById("nombre4")
+    let email = document.getElementById("email4")
+    let datos = {
+        "Nombre": nombre.value,
+        "Email": email.value
+    }
+    localStorage.setItem("datos",JSON.stringify(datos))
+}
+//botonEnviar.addEventListener("click", obtenerDatos)
+
+/* Validacion formulario */
+
+const formulario = document.getElementById("form")
+const validar = (e)=>{
+    let nombre = document.getElementById("nombre4")
+    let email = document.getElementById("email4")
+    if (nombre.value == "" || email.value == "") {
+        e.preventDefault()
+        e.stopPropagation()
+        alert("los campos no pueden estar vacios")
+    }else{
+        obtenerDatos()
+    }
+}
+formulario.addEventListener("submit", validar)
