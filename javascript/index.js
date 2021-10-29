@@ -49,6 +49,7 @@ window.onload = () => {
 };
 
 //cupon
+
 function tocame() {
     let random = Math.floor(Math.random() * 6);
     let cupon;
