@@ -12,7 +12,7 @@
 
 
   Swal.fire({
-    title: 'quieres acceder a ofertas personalizadas?',
+    title: 'Desean recibir novedades via email?',
     showDenyButton: true,
     showCancelButton: true,
     confirmButtonText: 'Si',
