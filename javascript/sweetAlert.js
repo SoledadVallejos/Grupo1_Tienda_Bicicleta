@@ -9,10 +9,8 @@
     Swal.fire(`Entered email: ${email}`)
   }*/
 
-
-
 Swal.fire({
-  title: 'quieres acceder a ofertas personalizadas?',
+  title: '¿quieres acceder a ofertas personalizadas?',
   showDenyButton: true,
   showCancelButton: true,
   confirmButtonText: 'Si',
@@ -32,6 +30,5 @@ Swal.fire({
   } else if (result.isDenied) {
     Swal.fire('Gracias', '', 'info')
   }
-
+  console.log(localStorage.getItem("email"))
 })
-console.log(localStorage.getItem("email"))

@@ -54,19 +54,19 @@ function tocame() {
     let cupon;
     switch (random) {
         case 1:
-            cupon = "5HOTSALE para obtener un 5% de descuento";
+            cupon = "5HOTSALE";
             break;
         case 2:
-            cupon = "10HOTSALE para obtener un 10% de descuento";
+            cupon = "10HOTSALE";
             break;
         case 3:
-            cupon = "15HOTSALE para obtener un 15% de descuento";
+            cupon = "15HOTSALE";
             break;
         case 4:
-            cupon = "20HOTSALE para obtener un 20% de descuento";
+            cupon = "20HOTSALE";
             break;
         case 5:
-            cupon = "25HOTSALE para obtener un 25% de descuento";
+            cupon = "25HOTSALE";
             break;
         default:
             cupon = "Segui participando!";
@@ -85,7 +85,7 @@ function tocame() {
         });
     } else if (cupon !== "Segui participando!") {
         Swal.fire({
-            title: "Te has ganado un cupon de: " + cupon,
+            title: "Estimado/a, gracias por elegirnos! Le obsequiamos el código " + cupon + " con su compra",
             width: 500,
             padding: "3em",
             background: "#fff url()",
